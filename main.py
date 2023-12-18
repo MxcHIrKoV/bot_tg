@@ -5,6 +5,7 @@ from aiogram.types import Message
 from environs import Env
 
 env = Env()
+
 env.read_env()
 bot_token = env('BOT_TOKEN')
 admin_id = env('ADMIN_ID')
